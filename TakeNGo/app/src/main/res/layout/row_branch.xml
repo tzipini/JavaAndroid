@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/_id"
+            style="@style/Styles.General.Lists.View"
+            android:text="@string/lists.branch.number" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/Styles.General.Lists.View"
+            android:text="@string/lists.branch.name" />
+    </LinearLayout>
+
+</LinearLayout>

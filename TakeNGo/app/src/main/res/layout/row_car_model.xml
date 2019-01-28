@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/_id"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.id" />
+    <TextView
+        android:id="@+id/companyName"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.company.name" />
+    <TextView
+        android:id="@+id/modelName"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.model.name" />
+    <TextView
+        android:id="@+id/engineSize"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.engine.size" />
+    <TextView
+        android:id="@+id/gearType"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.gear.type" />
+    <TextView
+        android:id="@+id/seats"
+        style="@style/Styles.General.Lists.View"
+        android:text="@string/lists.car.model.seats" />
+</LinearLayout>
+

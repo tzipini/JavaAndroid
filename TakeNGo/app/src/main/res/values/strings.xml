@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">TakeNGo </string>
+
+    <string name="login.username">הקלד בבקשה את שם משתמש</string>
+    <string name="login.password">הקלד סיסמה</string>
+    <string name="login.button.login">הכנס</string>
+    <string name="login.button.cancel">נקה</string>
+    <string name="messages.error.login">שם משתמש או כניסה אינם נכונים</string>
+    <string name="main.buttons.users"> משתמשים</string>
+    <string name="main.buttons.branches"> סניפים</string>
+
+    <string name="login.title">כניסה למערכת </string>
+    <string name="main.title">מסך ראשי</string>
+    <string name="cars.title">ניהול רכבים</string>
+    <string name="order.title">ניהול הזמנות</string>
+    <string name="car.model.title">ניהול מודלים של רכבים</string>
+
+    <string name="main.title2">ניהול מערכת</string>
+    <string name="main.buttons.cars"> רכבים</string>
+    <string name="main.buttons.orders"> הזמנות</string>
+    <string name="cars.edit.carno">הכנס מספר רכב</string>
+    <string name="cars.edit.km">הכנס מספר קילומטרים</string>
+    <string name="cars.hint.model">הכנס מודל</string>
+    <string name="cars.models._id">הכנס קוד מודל</string>
+    <string name="cars.models.company.name">הכנס שם חברה</string>
+    <string name="cars.models.model.name">הכנס שם מודל</string>
+    <string name="main.buttons.models">מודלים</string>
+    <string name="messages.add.car">מכונית התווספה בהצלחה</string>
+    <string name="R.string.messages_add_car_model">מודל התווסף בהצלחה</string>
+    <string name="error.no.cod">עדיין אין קוד להוספת רכב</string>
+    <string name="branch.number">הכנס מספר סניף</string>
+    <string name="branch.name">הכנס שם סניף</string>
+    <string name="messages.add.branch">סניף התווסף בהצלחה</string>
+    <string name="lists.user.firstName">firstName</string>
+    <string name="lists.user.lastName">lastName</string>
+    <string name="lists.user.tel">tel</string>
+    <string name="lists.user.password">password</string>
+    <string name="lists.user.email">email</string>
+    <string name="lists.branch.number">number</string>
+    <string name="lists.branch.name">name</string>
+    <string name="lists.model.id">Model ID</string>
+    <string name="lists.car.model.id">Car Model ID</string>
+    <string name="lists.car.model.company.name">Company Name</string>
+    <string name="lists.car.model.model.name">Model Name</string>
+    <string name="lists.car.model.engine.size">Engine Size</string>
+    <string name="lists.car.model.gear.type">Gear Type</string>
+    <string name="lists.car.model.seats">Number of Seats</string>
+    <string name="lists.car.carNo">Car Number</string>
+    <string name="R_string_messages_add_car">הוספת מכונית חדשה בוצעה בהצלחה</string>
+    <string name="login.title1">חברת TakeNGo n מסך כניסה</string>
+    <string name="error.input">שגיאה בהקלדת נתונים</string>
+    <string name="error.input.branchNo">יש להקליד מספר סניף</string>
+    <string name="button.ok">סגור</string>
+    <string name="error_input_branchName">יש להקליד שם סניף</string>
+    <string name="error_execption">שגיאת הרצה</string>
+    <string name="error_input_modelId">יש להקליד מספר מודל</string>
+    <string name="error_input_companyName">יש לבחור שם חברה</string>
+    <string name="error_input_modelName">יש לבחור שם מודל</string>
+    <string name="error_input_carNo">יש להקליד מספר רכב</string>
+    <string name="error_input_km">יש להקליד מספר קילומטרים</string>
+    <string name="data_input">הקלדת נתונים</string>
+    <string name="carsNo">מס רכב:</string>
+    <string name="branch.active.twenty.four">פעיל 24 שעות</string>
+    <string name="title_branch_name">שם סניף</string>
+    <string name="title_branch_number">מספר סניף</string>
+    <string name="title_branch_rating">דירוג</string>
+    <string name="car.messages.selected">לחצת על רכב</string>
+    <string name="lists.user.userId">user id</string>
+    <string name="lists.car._id">_id</string>
+    <string name="lists.user.identityNo">Identity number</string>
+
+    <string-array name="help_messages">
+        <item> HELP</item>
+
+    </string-array>
+
+    <string-array name="users">
+        <item> 1,28776152,anonymous,user,092834344,a,1234 </item>
+        <item> 2,28776152,itamar,lachman,092834344,itamar@gmail.com,1234 </item>
+    </string-array>
+
+    <string-array name="branches">
+        <item> 1, Snif Hanevieim, 23, 100, Hanevim , Haifa </item>
+        <item> 2, Snif Rashi, 50, 100, Yafo , Haifa </item>
+        <item> 3, Snif Hatikva, 50, 100, Yafo , Yahud </item>
+        <item> 4, Snif Petach Tikva, 50, 100, Yafo , Petch Tikva </item>
+        <item> 5, Snif Jerusalem, 50, 100, Yafo , Jerualem </item>
+    </string-array>
+
+    <string-array name="cars.models">
+        <item> 1,TOYOTA,X84355,2000,Manual,4 </item>
+        <item> 2,Ford,Dw667,1200,Manual,4 </item>
+    </string-array>
+
+    <string-array name="cars">
+        <item> 1,73-676-32,Snif Hanevieim,X84355,78213 </item>
+        <item> 2,82-111-21,Snif Jerualsem,Q19999,23420 </item>
+    </string-array>
+
+</resources>

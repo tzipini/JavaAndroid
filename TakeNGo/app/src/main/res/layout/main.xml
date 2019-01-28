@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.Main">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Styles.General.Title"
+        android:layout_marginStart="44dp"
+        android:text="@string/main.title2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUsers"
+        style="@style/Styles.Screens.Main.Button"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_users"
+        android:onClick="openActivity"
+        android:text="@string/main.buttons.users"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btnBranches"
+        style="@style/Styles.Screens.Main.Button"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_branches"
+        android:onClick="openActivity"
+        android:text="@string/main.buttons.branches"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btnCars"
+        style="@style/Styles.Screens.Main.Button"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_cars"
+        android:onClick="openActivity"
+        android:text="@string/main.buttons.cars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBranches" />
+
+    <Button
+        android:id="@+id/btnOrders"
+        style="@style/Styles.Screens.Main.Button"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="112dp"
+        android:background="@drawable/button_order"
+        android:gravity="center"
+        android:onClick="openActivity"
+        android:text="@string/main.buttons.orders"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCars" />
+
+    <Button
+        android:id="@+id/btnCarModels"
+        style="@style/Styles.Screens.Main.Button"
+        android:layout_width="163dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_order"
+        android:gravity="center"
+        android:onClick="openActivity"
+        android:text="@string/main.buttons.models"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUsers" />
+
+</android.support.constraint.ConstraintLayout>
